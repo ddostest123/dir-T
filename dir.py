@@ -27,7 +27,7 @@ def jsfinder(target):
 
 def packerfuzzer(target):
     print("\r\n[+] 使用 packerfuzzer 进行扫描")
-    cmd = "python3 Packer-Fuzzer/PackerFuzzer.py -l en -u {} -r html".format(target)
+    cmd = "python3 PackerFuzzer.py -l en -u {} -r html".format(target)
     os.system(cmd)
 
 def main():

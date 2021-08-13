@@ -7,7 +7,7 @@ import sys
 
 def rad_linux_amd64(target):
     print("\r\n[+] 使用 rad_linux_amd64 进行扫描")
-    cmd = "./rad_linux_amd64 --target {}".format(target,"target-rad.txt")#--http-proxy
+    cmd = "./rad_linux_amd64 --target {}".format(target,"target-rad.txt")#--http-proxy，其他扫描添加代理也如此
     os.system(cmd)
 
 def crawlergo(target):
